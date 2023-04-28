@@ -17,13 +17,10 @@ public class BankMappingProfile : Profile
         CreateMap<DepositAccountCommand, Account>();
         CreateMap<WithdrawAccountCommand, Account>();
 
-        // CreateMap<AsistenciaDetalle, AsistenciaDetalleDto>();
         CreateMap<Account, CreateAccountCommandResponse>();
-        // CreateMap<AsistenciaDetalle, AsistenciaDetalleEliminarCommandResponse>();
-        // CreateMap<AsistenciaDetalle, AsistenciaDetalleActualizarCommandResponse>();
-        // CreateMap<AsistenciaDetalleCrearCommand, AsistenciaDetalle>();
-        // CreateMap<AsistenciaDetalleEliminarCommand, AsistenciaDetalle>();
-        // CreateMap<AsistenciaDetalleActualizarCommand, AsistenciaDetalle>();
+        CreateMap<Account, DepositAccountCommandResponse>();
+        CreateMap<Account, WithdrawAccountCommandResponse>();
+
 
     }
 }
