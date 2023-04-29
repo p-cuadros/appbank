@@ -2,7 +2,6 @@ using System.Net.Mime;
 using apibanca.application.Exceptions;
 using apibanca.webapi.Models;
 using apibanca.webapi.Exceptions;
-using apibanca.application.Exceptions;
 
 namespace apibanca.webapi.Middlewares;
 public class ExceptionHandlerMiddleware

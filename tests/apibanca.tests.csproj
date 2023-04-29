@@ -14,6 +14,6 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Application\apibanca.application.csproj" />
+    <ProjectReference Include="..\application\apibanca.application.csproj" />
   </ItemGroup>
 </Project>
